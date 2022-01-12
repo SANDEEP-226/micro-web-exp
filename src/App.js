@@ -1,11 +1,9 @@
-import logo from './logo.svg';
 import './App.css';
+import ItemCardRow from './components/ItemCardRow';
 
 function App() {
   return (
-   <h1>
-     Let's Go..
-   </h1>
+   <ItemCardRow/>
   );
 }
 
