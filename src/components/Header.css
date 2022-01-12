@@ -1,0 +1,40 @@
+.header {
+  border: 10mm;
+  border-radius: 50%;
+  border-color: black;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo_img {
+  width: 175px;
+  height: 35px;
+  padding: 7px;
+}
+
+.content ul {
+  display: flex;
+  justify-content: space-between;
+}
+.content ul li {
+  list-style: none;
+  text-decoration: none;
+  padding: 15px;
+}
+.login {
+  padding: 15px;
+}
+button {
+  border-width: 2px;
+  border-color: rgb(212, 204, 89);
+  border-radius: 20%;
+  padding: 5px;
+}
+.content ul li .login:hover {
+  background-color: orange;
+}
+li:hover {
+  border-bottom: 15px;
+  border-color: orange;
+  /* background-color: ; */
+}
